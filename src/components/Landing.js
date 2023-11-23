@@ -62,9 +62,11 @@ function Landing() {
 							className="logo-outer"
 						/>
 						<img
-							src={"/assets/Virbusser website-40.png"}
+							src={"/assets/logo.png"}
 							alt=""
 							className="logo"
+							height="12%"
+							width='27%'
 						/>
 
 						<Box sx={classes.circles}>

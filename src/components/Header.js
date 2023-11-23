@@ -15,19 +15,18 @@ function Header() {
       <Box component="header" sx={classes.root}>
         <Container sx={classes.content} maxWidth="xl">
           <a href="/#" style={classes.logo}>
-            {/* <img
-              src={"/assets/Virbusser website-40.png"}
+            { <img
+              src={"/assets/logo.png"}
               width={150}
               alt="virbusser_logo"
-            /> */}
-            Dword Core Pvt. Ltd.
+            /> }
           </a>
 
           <nav className="d-nav">
             <a href="/#">Home</a>
             <a href="#services">Services</a>
-            <a href="#why-us">Why us?</a>
-            <a href="#contact">Contact</a>
+            {/* <a href="#why-us">Why us?</a>
+            <a href="#contact">Contact</a> */}
           </nav>
         </Container>
       </Box>
@@ -57,7 +56,7 @@ function Header() {
           >
             <a href="/#">
               <img
-                src={"/assets/Virbusser website-40.png"}
+                src={"/assets/logo.png"}
                 width={100}
                 alt="virbusser_logo"
               />
@@ -81,12 +80,12 @@ function Header() {
           <a href="#services" onClick={() => setShow(!show)}>
             Services
           </a>
-          <a href="#why-us" onClick={() => setShow(!show)}>
+          {/* <a href="#why-us" onClick={() => setShow(!show)}>
             Why us?
           </a>
           <a href="#contact" onClick={() => setShow(!show)}>
             Contact
-          </a>
+          </a> */}
         </Box>
       </>
     </>

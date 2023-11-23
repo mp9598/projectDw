@@ -1,10 +1,10 @@
 import { Box } from "@mui/system";
 import Footer from "./components/Footer";
 import Landing from "./components/Landing";
-import MoreLess from "./components/MoreLess";
+// import MoreLess from "./components/MoreLess";
 import Services from "./components/Services";
-import Support from "./components/Support";
-import TypeGrid from "./components/TypeGrid";
+// import Support from "./components/Support";
+// import TypeGrid from "./components/TypeGrid";
 import Header from "./components/Header";
 import colors from "./utils/myColors";
 
@@ -24,9 +24,9 @@ function App() {
       />
 
       <Services />
-      <MoreLess />
-      <Support />
-      <TypeGrid />
+      {/* <MoreLess /> */}
+      {/* <Support /> */}
+      {/* <TypeGrid /> */}
       <Footer />
     </Box>
   );

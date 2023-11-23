@@ -19,7 +19,7 @@ function Footer() {
       <Container maxWidth="xl" sx={classes.container}>
         <Fade left>
           <Typography sx={classes.logo}>
-            {"DwordCore".split("").map((i, index) => (
+            {"PRECODE".split("").map((i, index) => (
               <span
                 style={{
                   color:
